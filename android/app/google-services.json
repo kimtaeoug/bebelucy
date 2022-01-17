@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "595682400151",
+    "firebase_url": "https://bebelucy-emmahc-default-rtdb.firebaseio.com",
+    "project_id": "bebelucy-emmahc",
+    "storage_bucket": "bebelucy-emmahc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595682400151:android:bb4940d7fe53fc781d56d2",
+        "android_client_info": {
+          "package_name": "com.example.bebelucy_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595682400151-utdlrq4d7irki92hl9v03tfqqu9ekqrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bebelucy_flutter",
+            "certificate_hash": "4786559c3696a0e80d1433ced6226f6c67988ddf"
+          }
+        },
+        {
+          "client_id": "595682400151-eo0i6ul62qsacpvqjeor3aoi5g21kbjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ8QjoyawL-HWXmNTWDbWHff_AAijRcAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595682400151-eo0i6ul62qsacpvqjeor3aoi5g21kbjm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

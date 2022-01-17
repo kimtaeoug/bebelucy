@@ -1,0 +1,120 @@
+name: bebelucy_flutter
+description: bebelucy version of flutter
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # permission
+  permission_handler: ^6.1.1
+  # korea date
+  flutter_localizations:
+    sdk: flutter
+  # camera
+  camera: ^0.8.1+2
+  # path
+  path: ^1.8.0
+  image_picker: ^0.8.0+1
+  # provider
+  provider: ^5.0.0
+  # responsive ui
+  flutter_screenutil: ^5.0.0+2
+  # stt
+  speech_to_text: ^4.2.1
+  # animation
+  animations: ^2.0.0
+  # ble
+  flutter_blue: ^0.8.0
+  #device preview
+  device_preview: ^0.8.0
+  #network
+  connectivity: ^3.0.6
+  #firebase_core
+  firebase_core: ^1.6.0
+  #firebase_auth
+  firebase_auth: ^3.1.1
+  #firebase google sign in
+  google_sign_in: ^5.1.1
+  #timezone
+  timezone: ^0.7.0
+  #upgrader
+  upgrader: ^3.5.1
+  #country
+  devicelocale: ^0.4.2
+  #multi audio player
+  audioplayers: ^0.20.0
+  #audio_session for background
+  path_provider: ^2.0.3
+  #tts
+  flutter_tts: ^3.2.2
+  #sqlite
+  sqflite: ^2.0.0+4
+  #firebase realtime
+  firebase_database: ^7.2.2
+  flutter_web_auth: ^0.3.1
+  uuid: ^3.0.4
+  http: ^0.13.3
+  #awesome_notification
+  awesome_notifications: ^0.0.6+9
+  #logger
+  logger: ^1.1.0
+  #Date time format
+  intl: ^0.17.0
+  #Graph
+  fl_chart: ^0.40.0
+  #toast
+  fluttertoast: ^8.0.8
+  #sharedpreference
+  shared_preferences: ^2.0.8
+  #facebook_login
+  flutter_facebook_auth: ^3.5.6
+  #work manager
+  workmanager: ^0.4.1
+  #firebase messaging
+  firebase_messaging: ^11.1.0
+  #sign_in_apple
+  sign_in_with_apple: ^3.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - audios/
+  fonts:
+    - family: campton_medium
+      fonts:
+        - asset: font/campton_medium.otf
+    - family: campton_bold
+      fonts:
+        - asset: font/campton_bold.otf
+    - family: capmton_book
+      fonts:
+        - asset : font/campton_book.otf
+    - family: campton_light
+      fonts:
+          - asset: font/campton_light.otf
+    - family: campton_semibold
+      fonts:
+          - asset: font/campton_semibold.otf
+    - family: apple_b
+      fonts:
+        - asset: font/applesdgothicneob.ttf
+    - family: apple_eb
+      fonts:
+        - asset: font/applesdgothicneoeb.ttf
+    - family: apple_h
+      fonts:
+        - asset: font/applesdgothicneoh.ttf
+    - family: apple_l
+      fonts:
+        - asset: font/applesdgothicneol.ttf
+    - family: apple_m
+      fonts:
+        - asset: font/applesdgothicneom.ttf
