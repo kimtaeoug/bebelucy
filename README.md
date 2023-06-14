@@ -1,4 +1,4 @@
-# <center>JakomoProject</center>  
+# <center>BebeLucy</center>  
 ![Stack](https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Stack](https://img.shields.io/badge/android-3DDC84?style=for-the-badge&logo=Android&logoColor=white)
 ![Stack](https://img.shields.io/badge/apple-000000?style=for-the-badge&logo=IOS&logoColor=white)
@@ -27,11 +27,11 @@
       <td>
          <img width="200px" src="./6.png">
       </td>
-      <td>
-         <img width="200px" src="./7.png">
-      </td>      
    </tr>
    <tr>
+      <td>
+         <img width="200px" src="./7.png">
+      </td>           
       <td>
          <img width="200px" src="./8.png">
       </td>
@@ -46,9 +46,6 @@
       </td>
       <td>
          <img width="200px" src="./12.png">
-      </td>
-      <td>
-         <img width="200px" src="./13.png">
       </td>
     </tr>	
 </table>
