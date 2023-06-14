@@ -100,3 +100,181 @@
 * 건강 상태 측정 내역(Calendar, Graph)  
 * AS / 1대1 문의 신청  
 * 음악 플레이어(백그라운드)
+
+
+### Application 구조
+<details><summary>ApplicationTree</summary>
+   
+```bash
+├── BLE
+│   ├── BLEProvider.dart
+│   ├── BabyMonitoringDto.dart
+│   ├── BleProtocol.dart
+│   └── EnviromentMonitoringDto.dart
+├── BLECommunicate
+│   ├── BLEProtocol.dart
+│   ├── BLEProvider.dart
+│   └── BabyEnviromentDto.dart
+├── BebeSharedPreference.dart
+├── BebelucyColor.dart
+├── BebelucyFont.dart
+├── CheckCountry
+│   └── CheckCountryFactory.dart
+├── FCM
+│   └── FcmFactory.dart
+├── InitSetting.dart
+├── LocalDB
+│   ├── BabyImageDto.dart
+│   ├── DBFactory.dart
+│   ├── HeartRateModel.dart
+│   ├── LocalDBFactory.dart
+│   ├── LocalDBProvider.dart
+│   ├── ProfileBirthModel.dart
+│   ├── ProfileBloodTypeModel.dart
+│   ├── ProfileGenderModel.dart
+│   ├── ProfileImageModel.dart
+│   ├── ProfileNameModel.dart
+│   └── WeightModel.dart
+├── Logger
+│   └── LoggerFactory.dart
+├── MemberShip
+│   ├── MemberShipFactory.dart
+│   └── MembershipVariables.dart
+├── Network
+│   └── NetworkObserver.dart
+├── Notification
+│   └── NotiFactory.dart
+├── Page
+│   ├── BLEScan
+│   │   ├── BLEIconAnimation.dart
+│   │   ├── BLEScanDeviceName.dart
+│   │   ├── BLEScanPage.dart
+│   │   ├── BLEScanPercentAnimation.dart
+│   │   ├── BLEScanProvider.dart
+│   │   ├── BLEScanSpiralAnimation.dart
+│   │   ├── BLESearchText.dart
+│   │   └── SpiralPathPainter.dart
+│   ├── Camera
+│   │   ├── CameraLoadingPage.dart
+│   │   └── CameraPage.dart
+│   ├── CommonUI
+│   │   ├── AutoPositionedList.dart
+│   │   ├── BebeToast.dart
+│   │   ├── ContextMenu.dart
+│   │   ├── LoadingUI.dart
+│   │   └── LongList.dart
+│   ├── Enviroment
+│   │   ├── ActivatedBar.dart
+│   │   ├── BabyEnviromentComponent
+│   │   │   ├── BabyEnviroment.dart
+│   │   │   ├── FineDust.dart
+│   │   │   ├── Humidity.dart
+│   │   │   ├── Temperature.dart
+│   │   │   └── UltraFineDust.dart
+│   │   ├── BabyHeartRateComponent
+│   │   │   ├── BabyHeartAverage.dart
+│   │   │   ├── BabyHeartRate.dart
+│   │   │   ├── BabyHeartRateLabel.dart
+│   │   │   └── HeartRateGraph.dart
+│   │   ├── BabyWeightComponent
+│   │   │   ├── BabyNowWeight.dart
+│   │   │   ├── BabyWeight.dart
+│   │   │   ├── BabyWeightGraph.dart
+│   │   │   └── BabyWeightGuideText.dart
+│   │   ├── EnviromentCurrentTimeProvider.dart
+│   │   ├── EnviromentPage.dart
+│   │   ├── EnviromentProvider.dart
+│   │   ├── EnviromentTime.dart
+│   │   └── EnviromentTopNavigation.dart
+│   ├── FAQ
+│   │   ├── FAQApplicationLIst.dart
+│   │   ├── FAQDrawer.dart
+│   │   ├── FAQEtcList.dart
+│   │   ├── FAQList.dart
+│   │   ├── FAQNavigation.dart
+│   │   ├── FAQPage.dart
+│   │   ├── FAQProductList.dart
+│   │   ├── FAQProvider.dart
+│   │   └── FAQTop.dart
+│   ├── FetusWhiteNoise
+│   │   ├── FetusMomSound.dart
+│   │   ├── FetusSlider.dart
+│   │   ├── FetusThumb.dart
+│   │   ├── FetusWhiteNoiseList.dart
+│   │   ├── FetusWhiteNoisePage.dart
+│   │   └── FetusWhiteNoiseTitle.dart
+│   ├── Home
+│   │   ├── HomeBottom.dart
+│   │   ├── HomeIcon.dart
+│   │   ├── HomePage.dart
+│   │   ├── HomeProfile.dart
+│   │   ├── HomeTop.dart
+│   │   └── TopArc.dart
+│   ├── Login
+│   │   ├── LoginItem.dart
+│   │   ├── LoginPage.dart
+│   │   └── LoginUI.dart
+│   ├── Profile
+│   │   ├── ProfileBirth.dart
+│   │   ├── ProfileBloodType.dart
+│   │   ├── ProfileGender.dart
+│   │   ├── ProfileImage.dart
+│   │   ├── ProfileLinear.dart
+│   │   ├── ProfileName.dart
+│   │   └── ProfilePage.dart
+│   ├── Setting
+│   │   ├── LogoutButton.dart
+│   │   ├── SettingAccountItem.dart
+│   │   ├── SettingBLEItem.dart
+│   │   ├── SettingCameraItem.dart
+│   │   ├── SettingPage.dart
+│   │   ├── SettingPushItem.dart
+│   │   ├── SettingPushSwitch.dart
+│   │   ├── SettingQuestionItem.dart
+│   │   ├── SettingVoiceItem.dart
+│   │   └── SettingVoiceSwitch.dart
+│   ├── Shake
+│   │   ├── ShakePage.dart
+│   │   ├── ShakeProvider.dart
+│   │   ├── ShakeRange.dart
+│   │   ├── ShakeRangeAnimation.dart
+│   │   ├── ShakeRangeAnimationPath.dart
+│   │   ├── ShakeStep.dart
+│   │   ├── ShakeTimer.dart
+│   │   ├── ShakeTimerEditor.dart
+│   │   ├── ShakeTimerIsolate.dart
+│   │   └── ShakeTitle.dart
+│   ├── Splash
+│   │   ├── SplashOpacityAnimation.dart
+│   │   ├── SplashPage.dart
+│   │   ├── SplashProvider.dart
+│   │   └── SplashRotationAnimation.dart
+│   └── WhiteNoise
+│       ├── MomWhiteNoise.dart
+│       ├── PlayerSlider.dart
+│       ├── WhiteNoisSliderThumb.dart
+│       ├── WhiteNoiseItem.dart
+│       ├── WhiteNoiseItemSlider.dart
+│       ├── WhiteNoiseMain.dart
+│       ├── WhiteNoisePage.dart
+│       ├── WhiteNoisePlayer.dart
+│       ├── WhiteNoiseProvider.dart
+│       ├── WhiteNoiseTimer.dart
+│       └── WhiteNoiseTimerSetting.dart
+├── Permission
+│   └── PermissionFunction.dart
+├── RealtimeDB
+│   └── RealtimeDBFactory.dart
+├── Routes.dart
+├── STT
+│   └── SttFactory.dart
+├── SupportUI.dart
+├── TTS
+│   └── TtsFactory.dart
+├── TestUIPage.dart
+├── UpdateApp
+│   └── UpdateAlertUI.dart
+└── main.dart
+``` 
+   
+</details>
