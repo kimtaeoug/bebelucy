@@ -13,6 +13,13 @@
  
 </div>
 
+## 😀 프로젝트 소개  
+해당 프로젝트는 EmmahealthCare에서 생산 기술 연구원과 협업해 만든 아기 침대 앱입니다. 
+해당 앱의 특징은 Bebelucy라는 침대형 기기와 BLE로 통신해 기기 제어 및 조작을 하는 것입니다. 또한, Wifi 카메라와 연동된 앱을 통해 아기를 지켜볼 수 있고, 기기를 통해 앱에서 현재 아기 주변의 온도, 습도등을 파악하고 침대의 흔들 기능을
+통해서 아기에게 안락함을 제공합니다. 서비스는 Serverless구조로 Firebase를 이용했으며, Flutter를 사용해 개발된 앱입니다.
+
+* _해당 Github은 서비스의 프로토타입 버전 Github이여서 일부 기능에 대한 코드들이 빠져있습니다._
+
 <table>
    <tr>
       <td>
@@ -70,37 +77,26 @@
 
 #### _해당 앱은 각 Store에서 내려가 동영상으로 대체합니다._ 👉🏻[앱 동영상](https://drive.google.com/file/d/1LzqKtCCFKvX85juMHstk7__eLRABnv99/view?usp=drive_link)
 
-[1.프로젝트 소개](#😀-프로젝트-소개)    
+<!-- [1.프로젝트 소개](#😀-프로젝트-소개)    
 [2.프로젝트내 담당 업무](#🧑‍💻-프로젝트내-담당-업무)  
 [3.개발 기간](#⏳️-개발-기간)  
 [3.기술 스택](#⚙️-기술-Stack)  
 [3.협업 기관](#🙌-Contributing-and-Company)   
 [3.주요 기능](#📌-주요-기능)  
-[4.개발을 하고 싶어요](#Application-구조)
+[4.개발을 하고 싶어요](#Application-구조) -->
 
-
-## 😀 프로젝트 소개  
-여러 협업 기관과 함께 만든 IOT 서비스로 기기와 연동해 기기 제어 및 생체 신호 측정을 통한 건강 상태 분석등이 주요 기능인 휴식 테마의 앱입니다.    
 
 ### 🧑‍💻 프로젝트내 담당 업무  
-+ 서비스 설계 -> 리메인과 기기 기반 서비스 설계 및 기획  
-+ 서비스 개발 -> Flutter를 사용한 앱 개발, Firebase를 사용한 Serverless 구조 개발  
-+ 배포 -> PlayStore, AppStore(현재는 Store에서 앱이 내려가 있습니다.)    
++ 앱 및 기타 개발 -> Flutter를 사용한 앱 개발, Firebase를 사용한 Serverless 구조 개발  
++ 배포 -> PlayStore, AppStore(현재는 Store에서 앱이 내려가 있습니다.)     
 
 ### ⏳️ 개발 기간  
-* 서비스 설계 시작 : 2020.12  
-* 앱 개발 시작 : 2021.01    
+2021.03 ~ 2021.10
 
 ### ⚙️ 기술 Stack  
-* 상태 관리 및 바인딩, 라우팅 -> GetX  
-* 디자인 패턴 -> MVC  
+* 상태 관리 -> Provider
 * Device 통신 -> BLE  
-
-### 🙌 Contributing and Company    
-> Emmahc : 서비스 설계 및 개발, 배포, 팀 리딩  
-> 생산기술연구원 : 리클라이너 설계 Support   
-> Jakomo : 리클라이너 제조 및 설계  
-> 리메인 : 기획 및 디자인    
+* Serverless -> Firebase
 
 ### 📌 주요 기능  
 * MemberShip 기능  
@@ -115,6 +111,11 @@
 * 건강 상태 측정 내역(Calendar, Graph)  
 * AS / 1대1 문의 신청  
 * 음악 플레이어(백그라운드)
+
+### 🙌 Contributing and Company    
+> Emmahc : 앱 개밞 및 배포, Bebelucy Device 설계 및 제작
+> 생산기술연구원 : Bebelucy Device 설계 Support
+
 
 
 ### Application 구조
