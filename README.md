@@ -103,13 +103,13 @@
 * Firebase를 이용해 로그인, 회원 가입/탈퇴/수정, ID/PWD찾기등을 개발했습니다. 또한, FirebaseFunction을 사용해 소셜 로그인 기능을 개발했습니다.  
  
 #### 기기 제어  
-<img width="600px" src="./screen.png"> 
+<img width="600px" src="./structure.png"> 
 
-* 생체 신호 측정 및 분석  
-<img width="600px" src="./screen2.png">
-* 건강 상태 측정 내역(Calendar, Graph)  
-* AS / 1대1 문의 신청  
-* 음악 플레이어(백그라운드)
+* BLE를 이용해 기기와 APP을 연동하고, 지정한 프로토콜을 주고 받아 통신합니다. 기기와 연동된 후, APP에서 기기를 제어할 수 있는 프로토콜을 보내 기기 흔들 기능, 기기 환경 데이터를 받을 수 있는 프로토콜을 보내 온도/습도등의 데이터를 받아 APP에 표현해 사용자에게 제공합니다.
+
+#### 아기 관측
+* Wifi를 이용해 Camera와 APP을 연동해 침대 위 아기의 모습을 사용자에게 제공합니다.
+* 
 
 ### 🙌 Contributing and Company    
 > Emmahc : 앱 개밞 및 배포, Bebelucy Device 설계 및 제작
