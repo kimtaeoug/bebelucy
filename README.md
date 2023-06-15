@@ -114,7 +114,7 @@
 * 기기에 설치된 블루투스 스피커에 앱에서 실행한 백색소음을 들려줄 수 있습니다. 앱이 포어그라운드, 백그라운드 여부 관계없이 백색소음을 재생할 수 있고, 동시에 10개의 소리까지 실행할 수 있습니다.  
 
 ### 🙌 Contributing and Company    
-> Emmahc : 앱 개밞 및 배포, Bebelucy Device 설계 및 제작
+> Emmahc : 앱 개밞 및 배포, Bebelucy Device 설계 및 제작  
 > 생산기술연구원 : Bebelucy Device 설계 Support
 
 
